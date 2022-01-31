@@ -1,0 +1,21 @@
+<!-- django read mesage -->
+
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
+        {{ message }}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+
+<!-- or can read messages like this  -->
+
+{% if messages %}
+    {% for message in messages %}
+    <p id="messages">{{message}}</p>
+    {% endfor %}
+{% endif %}
