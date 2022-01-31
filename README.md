@@ -10,4 +10,4 @@ https://www.youtube.com/watch?v=EhYu8V_HZPE&list=PLbGui_ZYuhigchy8DTw4pX4duTTpvq
 
 code can also avaible on : https://www.codegrepper.com/code-examples/python/message.tags+django
 
-## best of luck
+## Best of luck
